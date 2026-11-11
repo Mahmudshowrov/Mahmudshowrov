@@ -1,190 +1,220 @@
-# 2. Rewritten Profile Content
+# 2. Rewritten Profile Content (updated from your CV)
 
 Anything in `[brackets]` is a blank for your real data. **Delete a bullet rather than guess a number.** A recruiter or a buyer may ask you about any figure, so it has to hold up.
+
+## The positioning shift the CV revealed
+
+The old framing, "10+ yrs, Knit/Woven/Denim/Sweater", is accurate but generic; hundreds of Dhaka merchandisers say the same thing. Your CV shows something sharper:
+
+1. **Denim depth:** years on **GAP Denim Adult**, covering the hard categories (jackets, sherpa-lined jackets, overalls, shirts, bottoms), at large-scale denim producers. Denim outerwear with sherpa lining is technically demanding, and few merchandisers can talk about it with authority.
+2. **US + Nordic range:** GAP and TCP (US mass market, high volume, strict compliance) **plus** Lager 157, Bubbleroom, NA-KD and Flash Loop (Nordic fast fashion, trend-driven, small runs, heavy embellishment). Most people only know one of these worlds.
+3. **Embellishment know-how:** print, embroidery, rhinestone, sequin, pearl and stud processes. This matters for both kidswear and Nordic fashion.
+4. **Data-minded:** a CSE degree, an Advanced Excel certification, and a WIP/margin/KPI dashboard you run today.
+
+**Your one-line identity:** *Senior Merchandiser and denim specialist bridging US mass-market and Nordic fashion brands, with costing and data skills to match.*
 
 ---
 
 ## A. Headline: 5 options (each under 220 characters)
 
-**1. Recruiter-search focused (recommended for job search)**
-> Senior Merchandiser | Apparel Sourcing & Product Development | Knit • Woven • Denim • Sweater | Costing & FOB Negotiation | EU/Nordic & US Brands | 10+ Yrs
+**1. Recruiter-search focused (recommended now)**
+> Senior Merchandiser | Denim Specialist | Knit • Woven • Sweater | Costing & Price Negotiation | US & Nordic Brands: GAP, TCP, Lager 157, NA-KD | 11+ Yrs
 
-**2. Commercial / costing authority**
-> Garment Costing & Sourcing Specialist | Senior Merchandiser | FOB, CM & Should-Cost Analysis | Knit, Woven, Denim, Sweater | Helping Brands Source Smarter from Bangladesh
+**2. Denim authority**
+> Senior Merchandiser | GAP Denim Background: Jackets, Sherpa, Overalls, Bottoms | Product Development to Shipment | Costing & Negotiation | Knit • Woven • Sweater
 
-**3. Buyer-facing (good for business development)**
-> Helping EU & US Fashion Brands Source Knit, Woven, Denim & Sweaters from Bangladesh | Senior Merchandiser | Product Development • Costing • Vendor Management
+**3. Range: US + Nordic**
+> Senior Merchandiser for US & Nordic Fashion Brands | Kidswear • Denim • Knit • Woven • Sweater | Costing, Vendor Management & On-Time Delivery | 11+ Yrs, Bangladesh
 
 **4. Differentiator: data + merchandising**
-> Senior Merchandiser | Apparel Sourcing & Costing | CSE Graduate Bringing Data & Automation to Merchandising | Knit • Woven • Denim • Sweater | 10+ Years
+> Senior Merchandiser | Apparel Sourcing & Costing | CSE Graduate Running WIP & Margin Dashboards | Denim • Knit • Woven • Sweater | US & Nordic Brands | 11+ Yrs
 
-**5. Future-facing (use once NextGen Garments is ready to launch)**
-> Founder, NextGen Garments Ltd. | Apparel Sourcing Partner for EU & US Brands | Knit, Woven, Denim, Sweater | 10+ Yrs in Merchandising, Costing & Factory Management
+**5. Future-facing (only once NextGen Garments is real)**
+> Founder, NextGen Garments Ltd. | Denim, Knit, Woven & Sweater Sourcing from Bangladesh for EU & US Brands | 11+ Yrs in Merchandising, Costing & Factory Management
 
-**My recommendation:** use **#1 now** while you're job-searching or getting visibility. Switch to **#4** if you want to stand out in a crowded field. Keep **#5** for when the business is real; announcing a company before it exists hurts credibility.
+**My pick:** **#1** while you're getting visibility. It packs the most searched keywords plus brand names recruiters recognise. Move to **#4** after a few months of posting about data and costing.
+
+**A note on brand names:** naming past and current buyers is normal on Bangladesh merchandising profiles, and recruiters love it. Don't use their logos, and don't claim to "represent" a brand.
 
 ---
 
 ## B. About section
 
-*About 2,100 characters. The first 3 lines are what people see before "see more", so they do the most work.*
+*About 2,200 characters. The first 3 lines are what people see before "see more", so they do the most work.*
 
 > I help fashion brands get the right product, at the right cost, shipped on time, from Bangladesh.
 >
-> For 10+ years I've worked on the merchandising side of the garment business across Knit, Woven, Denim and Sweater, from first proto to final shipment. Today I'm a Senior Merchandiser at Nordic Sourcing, working with Scandinavian fashion brands.
+> I'm a Senior Merchandiser with 11+ years in the apparel industry. I've worked on both sides of the global market: high-volume US programs for **GAP** and **The Children's Place**, and fast-moving Nordic fashion for **Lager 157, Bubbleroom, NA-KD and Flash Loop**.
+>
+> My foundation is denim. For years I handled **GAP Denim Adult** — denim jackets, sherpa jackets, shirts, pants, shorts and overalls — from proto and fit through wash approval, production and shipment. Since then I've worked across knit, woven and sweaters as well.
 >
 > **What I do well**
-> • **Costing and negotiation:** I build cost breakdowns from the ground up — fabric consumption, marker efficiency, GSM, trims, wash/print/embroidery, CM based on SMV and efficiency — so price discussions with factories and buyers are based on facts, not guesses.
-> • **Product development:** turning tech packs and design ideas into approved samples, managing fabric and trim development, fits and lab-dips.
-> • **Vendor and factory management:** choosing the right factory for each style based on capability, capacity and cost, and keeping them accountable on quality and timelines.
-> • **Production and shipment:** T&A planning, critical-path follow-up, PP meetings, inline/final inspection coordination and shipment booking. I flag risks early so they don't become air shipments.
+> • **Costing and negotiation:** style-wise costing built from technical consumption and supplier prices, and price negotiation with buyers and suppliers to protect target margins.
+> • **Product development:** proto, fit, grading, PP, shrinkage and size-set approvals; fabric and trim sourcing; managing buyer comments across categories.
+> • **Value-added processes:** print, embroidery, rhinestone, sequin, pearl and stud work, followed from development through bulk.
+> • **Production and shipment:** T&A/critical-path planning, PPM and PCD follow-up, factory visits, corrective actions, and vessel/air bookings through final dispatch.
+> • **Data and reporting:** I run a WIP dashboard that tracks order progress, delays, margin performance and team KPIs. With my B.Sc. in Computer Science & Engineering, I keep looking for ways to make merchandising faster and decisions sharper.
 >
-> **Brands I've worked with:** GAP, Old Navy, Lager 157, Bubbleroom, NA-KD.
+> **[Optional proof line, only with real numbers]:** I've managed seasonal order books of around USD [1.0] million [add PDS/Nordic figures when confirmed] across [X] factories.
 >
-> **[Optional proof line, only with real numbers]:** Over the last [X] years I've handled [X] styles per season and around [USD X M / X M pcs] in annual orders across [X] factories.
->
-> **What makes me different:** I have a B.Sc. in Computer Science & Engineering. I use it to build costing models, Excel/Power Query automation and merchandising dashboards that make teams faster and decisions sharper.
->
-> **I'm interested in:** senior merchandising, sourcing and product development roles with international brands and buying offices, and in connecting with brands, factory owners and sourcing professionals across the apparel supply chain.
->
-> I post regularly about garment costing, sourcing and merchandising. Follow along if that's your world.
+> I'm open to conversations with brands, buying offices, sourcing professionals and manufacturers across the apparel supply chain. I post about garment costing, denim and merchandising, so follow along if that's your world.
 >
 > 📩 [professional email] | 📍 Dhaka, Bangladesh
 
-**Pin these as your Top Skills** (the "Top skills" box in the About section): Garment Costing • Apparel Sourcing • Product Development • Vendor Management • Cost Negotiation
+**Pin as your Top Skills:** Apparel Merchandising • Garment Costing • Denim • Product Development • Price Negotiation
 
 ---
 
 ## C. Experience section
 
-Format for each role: a 1–2 line summary, then 4–6 bullets. Bullets marked **[needs data]** only work with your real numbers. Without them, use the version in *(fallback: …)* or delete the bullet.
+Format: a 1-line scope summary (buyer + categories), then 5–7 bullets. These are tightened versions of your CV bullets, rewritten so they sound like ownership rather than "responsible for". **[needs data]** bullets only go live once you have the real figure.
+
+### Senior Merchandiser — PDS Group (Techno)
+*Feb 2026 – Present · Dhaka, Bangladesh*
+
+> Senior Merchandiser for **The Children's Place (TCP)**, handling Knit, Woven and Denim from development to shipment.
+>
+> • Own end-to-end execution of TCP styles: product development, costing, sampling, order execution and shipment.
+> • Prepare item-wise costings and negotiate with the buyer and suppliers to secure target margins.
+> • Coordinate fabric and trim sourcing, supplier costing, sample submissions and buyer comments to keep development on schedule.
+> • Run PO-wise order summaries, T&A and pre-production approvals (shrinkage, size set, PPM, PCD).
+> • Manage embellishment execution (print, embroidery, rhinestone, sequin, pearl) against approved standards.
+> • Built and run a **WIP dashboard** for the team, tracking order progress, delays, margin performance and KPI achievement.
+> • Coordinate vessel, cargo and air bookings with forwarders and commercial teams through final dispatch.
+> • **[needs data]** e.g. "[X] styles per season / [X] pcs / USD [X] M across [X] factories."
+>
+> *Skills: Apparel Merchandising · Kidswear · Garment Costing · Price Negotiation · WIP Management*
+
+**Check:** if you didn't *build* the dashboard and only use or maintain it, change "Built and run" to "Run". It's a small word, but an interviewer will ask.
 
 ### Senior Merchandiser — Nordic Sourcing
-*Jul 2024 – Present · Dhaka, Bangladesh*
+*Jul 2024 – Feb 2026 · 1 yr 8 mos · Dhaka, Bangladesh*
 
-> Manage end-to-end merchandising for [Scandinavian / European] fashion brands [list buyers here, e.g. Lager 157, Bubbleroom, NA-KD — only those you actually handle here] across [Knit / Woven / Denim / Sweater].
+> Senior Merchandiser for Nordic fashion brands **Lager 157, Bubbleroom, NA-KD and Flash Loop**, across Knit, Woven, Denim and Sweater.
 >
-> • Lead product development from tech pack to approved PP sample for [X] styles per season, coordinating fabric, trim, wash and print development with factories.
-> • Build detailed cost breakdowns (fabric consumption, marker efficiency, trims, CM by SMV/efficiency, wash/print) to set target prices and negotiate FOB with factories. **[needs data]** e.g. "achieving an average [X]% reduction against first quotes on [category]."
-> • Select and manage a vendor base of [X] factories, matching each style to factory capability, capacity and cost.
-> • Run T&A and critical-path follow-up from order confirmation to shipment, **[needs data]** maintaining [X]% on-time delivery *(fallback: "identifying delay risks early and agreeing recovery plans with factories")*.
-> • Coordinate quality checkpoints (PP meeting, inline, final inspection) and shipment booking with the buyer's QA and logistics teams.
-> • [Any team leadership: "Guide [X] merchandisers on costing and follow-up."]
+> • Managed order execution from development to shipment for multiple Nordic brands running at the same time, keeping critical T&A milestones on track.
+> • Prepared style-wise costings and led price negotiations with suppliers.
+> • Handled fabric and trim sourcing, booking and supplier follow-up for on-time production readiness.
+> • Coordinated sample development, submissions and buyer comments across four product categories.
+> • Followed embellishment-heavy fashion styles (print, embroidery, rhinestone, sequin, pearl) through suppliers.
+> • Conducted regular factory visits and drove corrective actions on production and quality issues.
+> • Prepared monthly shipment and profit-margin reports for management.
+> • **[needs data]** e.g. "[X] styles per season across [X] factories."
 >
-> *Skills: Apparel Sourcing · Garment Costing · Cost Negotiation · Product Development · Vendor Management*
+> *Skills: Apparel Sourcing · Vendor Management · Fashion Merchandising · Sweaters · Supplier Negotiation*
 
 ### Merchandiser — Ha-Meem Group
 *Jan 2020 – Jul 2024 · 4 yrs 7 mos · Dhaka, Bangladesh*
 
-> Merchandiser at one of Bangladesh's largest vertically integrated apparel groups, handling [buyers here, e.g. GAP / Old Navy — confirm] for [Denim / Woven / Knit — confirm].
+> Merchandiser for **GAP Denim Adult**: denim jackets, sherpa jackets, shirts, pants, shorts and overalls.
 >
-> • Managed [X] styles per season and around [X M pcs / USD X M] in annual orders for [buyer(s)].
-> • Prepared costings and CM calculations from SMV and line efficiency, and supported price negotiation with buyer teams.
-> • Coordinated sampling stages (proto, fit, size set, PP) and handled buyer comments to get approvals on time.
-> • Followed up fabric and trims booking, in-house and sub-contract production, and finishing to meet ex-factory dates.
-> • Worked with washing, printing and embroidery units on development and bulk consistency.
-> • **[needs data]** A highlight, e.g. "recovered a delayed [denim] order through [line plan change / split shipment], avoiding [air freight / a claim]."
+> • Prepared style-wise costings from supplier prices and technical consumption, and negotiated prices with GAP while maintaining target margins.
+> • Worked with technical teams and suppliers on fabric sourcing and proto/development samples, including **consumption optimisation**.
+> • Managed fabric and trim bookings after order confirmation and issued PO-wise order summaries to planning and factories.
+> • Built and monitored T&A/critical-path timelines; followed up shrinkage, size set, PPM, PCD and **wash approvals**.
+> • Followed value-added processes (print, embroidery, rhinestone, sequin, pearl, stud) from supplier through delivery.
+> • Monitored daily production, quality and final inspection; flagged delivery risks early and drove corrective actions with production and finishing.
+> • Managed vessel and air bookings, and kept GAP's **Late Delivery Log (LDL)** updated for any shipment that missed its original date.
+> • Prepared monthly shipment summaries and profit-margin reports for management.
+> • **[needs data]** e.g. "[X] pcs / USD [X] M per season; on-time delivery [X]%."
 >
-> *Skills: Denim · Order Management · Production Planning · Buyer Communication · CM Costing*
+> *Skills: Denim · Denim Washing · Order Management · Costing · T&A Management*
 
-### Merchandiser — Armana Group
-*Oct 2016 – Dec 2019 · 3 yrs 3 mos*
+### Asst Merchandiser → Merchandiser — Armana Group
+*Apr 2015 – Dec 2019 · 4 yrs 9 mos* — **⚠ confirm the dates (Fatheha question in the README)**
 
-> Handled merchandising for [buyers] in [Knit / Sweater — confirm].
+> Grew from Assistant Merchandiser to Merchandiser on **[buyer — confirm: GAP Denim Adult?]**, handling **[categories — confirm]**.
 >
-> • Managed orders from costing and sampling through production and shipment for [X] buyers.
-> • Prepared fabric and yarn consumption, booked fabric/yarn and trims, and tracked in-house dates against the production plan.
-> • Coordinated with production, quality and commercial teams for timely shipment and documentation.
-> • **[needs data]** e.g. "Developed [X] new styles / onboarded [buyer]."
+> • Handled merchandising from product development to final shipment for seasonal orders of approximately **USD 1.0 million** *(⚠ confirm this figure belongs to Armana)*.
+> • Led costing, price negotiation and order finalisation in support of target margins.
+> • Drove sample approvals: proto, fit, grading, PP, shrinkage, size set and production samples.
+> • Planned and controlled T&A/CP; sourced and booked bulk fabric, trims and accessories.
+> • Used ERP (M3) for order processing, line planning, wash planning and WIP tracking.
+> • Ran PP and CP meetings with planning, washing, commercial, logistics, liaison offices, factories and the buyer to deliver on time.
+> • **Promoted** from Assistant Merchandiser to Merchandiser [in year X]. Add the year; promotions are strong proof.
 >
-> *Skills: Knitwear · Sweaters · Fabric Consumption · T&A Management*
+> *Skills: Denim · Sample Development · ERP (Infor M3) · Production Planning*
 
-### Assistant Merchandiser — Fatheha Group
-*Apr 2015 – Oct 2016 · 1 yr 7 mos*
+### [Only if correct] Assistant Merchandiser — Fatheha Group
+*Apr 2015 – Oct 2016*
 
-> Supported senior merchandisers across sampling, order follow-up and shipment.
->
-> • Prepared sample requests, BOMs and trims cards; followed up approvals with buyers.
-> • Tracked fabric/trims in-house status and daily production reports.
-> • Built a strong base in garment construction, consumption and export documentation.
->
-> *Skills: Sampling · Trims Management · Production Follow-up*
+> Supported senior merchandisers on sampling, trims, order follow-up and shipment documentation.
 
 ### Education — World University of Bangladesh
 *B.Sc. in Computer Science & Engineering · 2015*
 
-> Foundation in programming, databases and systems thinking, now applied to merchandising through costing models, Excel/Power Query automation and data-driven production tracking.
+> A foundation in programming, databases and systems thinking, which I now use in merchandising through Excel reporting, WIP/margin dashboards and data-driven production tracking.
+
+**Leave out of LinkedIn:** CGPA, HSC and SSC. They add nothing at 11 years' experience.
+
+### Licenses & Certifications (add both)
+- **Advanced Excel for Business**: Brocelle Learning, 2022
+- **Business Communication Skills**: Brocelle Coaching, 2023
+
+**Next certifications worth adding** (cheap, quick, relevant): Microsoft Power BI (PL-300 when you're ready, or a shorter course first); a sustainability/traceability course (Textile Exchange or similar, which Nordic buyers value); and a kidswear product safety course (CPSIA basics) for the TCP work.
 
 ---
 
-## D. Skills: the 30 most valuable
+## D. Skills: 30 most valuable (updated)
 
-Add all 30. Pin the first 5. Tag the most relevant 5 to each role.
+Pin the first 5. Tag the most relevant 5 to each role.
 
-| # | Skill | Why it matters |
-|---|-------|----------------|
-| 1 | Apparel Sourcing | Main search term for sourcing roles |
-| 2 | Garment Costing | Your strongest differentiator |
-| 3 | Product Development | Key term for PD roles |
-| 4 | Vendor Management | Searched by brand buying offices |
-| 5 | Cost Negotiation | Shows commercial skill |
-| 6 | Merchandising | Base term |
-| 7 | Apparel Merchandising | Exact phrase recruiters use |
-| 8 | Supply Chain Management | Wider filter used by corporates |
-| 9 | Production Planning | Production roles |
-| 10 | Order Management | Ops filter |
-| 11 | Buyer Relationship Management | Account handling |
-| 12 | Supplier Relationship Management | Sourcing-side wording |
-| 13 | Knitwear | Category |
-| 14 | Woven Garments | Category |
-| 15 | Denim | Category; denim roles are a niche with high demand |
-| 16 | Sweaters / Flat Knit | Category |
-| 17 | Fabric Sourcing | Material expertise |
-| 18 | Textile Industry | Industry filter |
-| 19 | Tech Packs | PD credibility |
-| 20 | Fit & Sample Approval | PD process |
-| 21 | Time & Action (T&A) Planning | Process control |
-| 22 | Quality Assurance | Shows quality ownership |
-| 23 | Garment Construction | Technical depth |
-| 24 | Pricing Strategy | Commercial roles |
-| 25 | Cost Reduction | Results-oriented term |
-| 26 | Factory Compliance (Social & Environmental) | EU buyers care about this |
-| 27 | Sustainable Sourcing | Nordic and EU priority |
-| 28 | Microsoft Excel (Advanced) | Analyst angle |
-| 29 | Power BI / Power Query | Differentiator (add once you've done a real project) |
-| 30 | Cross-functional Team Leadership | Needed for manager-level roles |
+| # | Skill | Note |
+|---|-------|------|
+| 1 | Apparel Merchandising | The exact phrase recruiters use |
+| 2 | Garment Costing | Your commercial core |
+| 3 | Denim | Your specialist edge |
+| 4 | Product Development | PD roles |
+| 5 | Price Negotiation | Commercial skill |
+| 6 | Apparel Sourcing | Sourcing roles |
+| 7 | Vendor Management | Brand buying offices |
+| 8 | Supplier Negotiation | On your CV |
+| 9 | Kidswear / Children's Wear | TCP; growing niche |
+| 10 | Knitwear | Category |
+| 11 | Woven Garments | Category |
+| 12 | Sweaters | Category |
+| 13 | Outerwear (Denim & Sherpa Jackets) | Rare skill; few have it |
+| 14 | Denim Washing | Wash approvals and planning |
+| 15 | Garment Embellishment (Print, Embroidery, Rhinestone, Sequin) | Fashion and kidswear |
+| 16 | Fabric Sourcing | Material expertise |
+| 17 | Trims & Accessories Sourcing | Daily work |
+| 18 | Sample Development | Proto → PP |
+| 19 | Time & Action (T&A) Planning | Process control |
+| 20 | WIP Management | On your CV |
+| 21 | Order Management | Ops filter |
+| 22 | Production Planning | Production roles |
+| 23 | Quality Assurance | Inspections |
+| 24 | Shipping & Logistics Coordination | Vessel/air booking |
+| 25 | Buyer Relationship Management | Account handling |
+| 26 | Supply Chain Management | Corporate filter |
+| 27 | Margin Analysis | Profit-margin reports |
+| 28 | ERP Systems (Infor M3) | Tools filter |
+| 29 | Microsoft Excel (Advanced) / Pivot Tables | Certified |
+| 30 | Data Analysis & Dashboards | Your CSE differentiator |
 
-**Remove:** Microsoft Word, Internet browsing, "Hard working", "Team player", and any skill that has nothing to do with this career (e.g. programming languages you no longer use, unless you're using the data angle).
-
-**Endorsements:** ask 10 colleagues to endorse your top 5. Endorse theirs first; most people return the favour.
+**Leave off LinkedIn (they're on the CV but weak signals):** "Advance MS Word", "MS PowerPoint & Outlook", "Time Management", "Problem-Solving". Everyone claims these, so they take up slots without helping search.
 
 ---
 
 ## E. Featured section
 
-Put 3–5 items here, in this order:
-
-1. **Capability one-pager (PDF):** "Mahmud — Apparel Sourcing & Merchandising". It covers the categories, buyers, process, costing approach and contact details. One page and clean (made in Canva).
-2. **Costing breakdown sample (PDF or image carousel):** a sanitised costing of a basic tee or a 5-pocket denim, with fabric consumption, marker efficiency, CM via SMV, trims, wash, commercial costs and FOB. It proves your depth instantly. **Use made-up example numbers and label them "illustrative." Never share real buyer or factory prices.**
-3. **Your best-performing post** (after month 1).
-4. **A carousel:** "10 hidden cost drivers in garment FOB" (Post #2 in the content plan).
-5. **Later:** the NextGen Garments Ltd. website/page, once it's live.
-6. **Only if relevant:** a garments-related Show_Tricks video.
+1. **Capability one-pager (PDF):** "Abdullah Al Mahmud — Senior Merchandiser | Denim • Kidswear • Nordic Fashion". It covers your buyers by market, categories, process strengths, tools and contact details.
+2. **A denim jacket/sherpa jacket costing breakdown (carousel),** using illustrative numbers and clearly labelled as such. Almost nobody posts this, and it shows denim depth instantly.
+3. **A WIP dashboard sample:** a screenshot of a version you build with **dummy data** (never the real PDS file) showing order status, delay flags and margin. It proves the data skill.
+4. **Your best-performing post** (after month 1).
+5. **Later:** the NextGen Garments Ltd. page.
 
 ---
 
 ## F. Banner
 
-**Size:** 1584 × 396 px. Make it in Canva using the "LinkedIn Background Photo" template.
+**Size:** 1584 × 396 px (Canva → "LinkedIn Background Photo").
 
-**Concept: "From Fibre to Freight"**
-
-- **Background:** a dark navy or charcoal base (it reads as premium and works in both light and dark mode). On the right two-thirds, a subtle, desaturated photo strip: fabric texture → sewing line → shipping container. Lower its opacity so the text stays readable.
-- **Left 30%:** keep it plain. Your profile photo covers this area on mobile.
+**Concept: "Denim to Delivery"**
+- **Background:** deep indigo (a denim nod that reads as premium), with a subtle, low-opacity texture strip on the right: denim twill weave → sewing line → container. Keep the left ~30% plain, because the profile photo covers it on mobile.
 - **Text (right-aligned, white):**
-  - Line 1 (large): **Apparel Sourcing • Costing • Product Development**
-  - Line 2 (smaller): Knit | Woven | Denim | Sweater — EU & US Brands
-  - Line 3 (smallest, in an accent colour such as soft gold or teal): Dhaka, Bangladesh · [email or website]
-- **Fonts:** one clean sans-serif (Montserrat, Inter or Poppins). Two weights at most.
-- **Avoid:** buyer logos (trademark issues, and your employer may object), clip-art, more than 3 lines of text, bright gradients.
-- **Check before uploading:** view it on your phone. If text is hidden behind the photo, move it right.
+  - Line 1: **Apparel Merchandising • Costing • Product Development**
+  - Line 2: Denim | Knit | Woven | Sweater | Kidswear
+  - Line 3 (soft gold or tan accent, like denim stitching thread): US & Nordic Brands · Dhaka, Bangladesh
+- **Font:** Montserrat or Inter, two weights at most. No buyer logos.
+- **Photo:** the CV photo (suit, plain background, good framing) works well for LinkedIn. Use it if your current LinkedIn photo is weaker.

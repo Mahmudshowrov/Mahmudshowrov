@@ -35,11 +35,11 @@
 | 3 | CM costing explained: SMV × CPM ÷ efficiency (Post #5) | How to reply when a buyer's target price is 15% below your cost (Post #6) | Knit vs woven vs denim vs sweater: how costing logic differs |
 | 4 | Marker efficiency: why 2% matters more than people think | Factory follow-up: the 5 questions I ask every day | Excel tip: a consumption calculator using LET/LAMBDA |
 | 5 | Denim costing: wash is where cost hides (Post #7) | What Nordic buyers look for in a supplier, beyond price | Lab dip and shade issues: the root causes |
-| 6 | Sweater costing: yarn, gauge and knitting time | EU Digital Product Passport: what BD merchandisers need to know | From Assistant Merchandiser to Senior: 5 lessons (Post #8) |
+| 6 | Sherpa-lined denim jackets: where the cost and the risk really sit | EU Digital Product Passport: what BD merchandisers need to know | From Assistant Merchandiser to Senior: 5 lessons (Post #8) |
 | 7 | Should-cost analysis: how brands check your price | T&A planning: the 3 dates that decide on-time delivery | Poll: biggest cause of shipment delay? |
-| 8 | Trims and accessories: the small costs that add up | How to say no to a buyer without losing the order | Power Query: automate the daily production report |
+| 8 | Kidswear compliance basics: what changes when the customer is a child (drawstrings, small parts, CPSIA testing) | How to say no to a buyer without losing the order | How I track WIP and margin in one dashboard (dummy data) |
 | 9 | Fabric price analysis: cotton, yarn and why the quote changed (Post #9) | Bangladesh vs Vietnam vs India vs Türkiye for EU sourcing | Air shipment: the real cost, and how to prevent it |
-| 10 | Commercial costs: freight, commission, bank charges, testing | Vendor selection: a scoring matrix for factories | Carousel: a full costing of a basic tee (illustrative) |
+| 10 | Embellishment costing: rhinestone, sequin and pearl, and why rejection rates matter | Vendor selection: a scoring matrix for factories | Carousel: a full costing of a basic tee (illustrative) |
 | 11 | Cost negotiation: a 4-step framework for factory price talks | Sustainability: what OCS/GRS/BCI changes in costing | Leadership: training junior merchandisers |
 | 12 | Cost variance: quoted cost vs actual, and where it leaks | Buyer email that saved a relationship: structure, not drama | Why merchandisers should learn data skills (Post #10) |
 | 13 | Recap: the 10 most useful costing lessons (link to the carousel) | What a buying house really adds for a brand (soft introduction to the NextGen idea) | 90-day reflection: what I learned posting, and thank-yous |
@@ -56,7 +56,7 @@ Every number below is an **illustrative example for teaching**, not a claim abou
 
 > 10 years. 4 product categories. One lesson: the price is decided long before the negotiation.
 >
-> I'm Mahmud, a Senior Merchandiser in Dhaka. Since 2015 I've worked across Knit, Woven, Denim and Sweater for brands like GAP, Old Navy, Lager 157, Bubbleroom and NA-KD.
+> I'm Abdullah Al Mahmud, a Senior Merchandiser in Dhaka. Since 2015 I've worked across denim, knit, woven and sweaters for US brands like GAP and The Children's Place, and Nordic brands like Lager 157, Bubbleroom and NA-KD.
 >
 > Most of my work happens between two worlds:
 > → Brands who need the right product, at the right cost, on time

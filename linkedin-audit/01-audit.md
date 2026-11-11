@@ -34,7 +34,7 @@ For each section: what good looks like, the common weak points, and what to add.
 - **Add:** see the banner brief in [02-profile-rewrite.md](02-profile-rewrite.md#f-banner). On mobile the photo covers the bottom-left of the banner, so keep text on the right half.
 
 ### Headline (220 characters)
-- **Common weak point:** "Senior Merchandiser at Nordic Sourcing." This wastes the most-searched field on your profile, because recruiters search by skill and category, not by your employer's name.
+- **Common weak point:** "Senior Merchandiser at PDS Group." This wastes the most-searched field on your profile, because recruiters search by skill and category, not by your employer's name.
 - **Add:** categories (Knit / Woven / Denim / Sweater), the function (costing, sourcing, product development), markets (EU/Nordic, US), and the years of experience.
 
 ### About (2,600 characters)
@@ -44,7 +44,7 @@ For each section: what good looks like, the common weak points, and what to add.
 ### Experience
 - **Common weak points:** responsibilities without results ("Responsible for follow-up of orders"); missing buyer names; empty descriptions on older roles.
 - **Add:** 4–6 bullets per role, each with an action verb, the task and the result. Add **Skills** to each role (LinkedIn lets you tag up to 5 per role), because that feeds search ranking.
-- **Check:** is the Nordic Sourcing entry linked to the company page (logo showing) rather than typed as plain text? Same for Ha-Meem.
+- **Check:** is each entry (PDS Group, Nordic Sourcing, Ha-Meem, Armana) linked to the company page (logo showing) rather than typed as plain text?
 
 ### Education
 - **Strong point to use:** a CSE degree is rare among merchandisers. Present it as the reason you build costing tools and data dashboards, not as a mismatch with your career.
@@ -82,10 +82,10 @@ How a typical **Senior Merchandiser profile in Bangladesh** compares with profil
 |-----------|-------------------------------|-----------------------------------------------------|---------------------------------------|
 | Identity | "Merchandiser" (an execution role) | "Sourcing / product development partner" (a commercial role) | Your skills are commercial (costing, negotiation), but titles alone read as execution. Lead with the commercial side. |
 | Scope | One factory, one buyer | Multi-category, multi-vendor, market-specific | **You're strong here:** 4 categories, US and Nordic buyers. Say so clearly. |
-| Proof | Duties | Numbers: FOB saved, OTD %, styles per season, order value | Likely missing. The biggest single gap. |
+| Proof | Duties | Numbers: FOB saved, OTD %, styles per season, order value | **Confirmed gap:** your CV has one number (USD 1.0M seasonal orders) in 3 pages. The biggest single gap. |
 | Market knowledge | Silent | Talks about compliance, EU regulations (CSRD, Digital Product Passport, EUDR), US tariffs, nearshoring, cost trends | Nordic buyers care heavily about sustainability and traceability. Show you know it. |
 | Visibility | Invisible: no posts | Regular, practical posts | Easy to fix. Your costing depth is excellent content. |
-| Differentiator | None | A clear "only-I" angle | **Merchandiser + CSE + data/automation.** Few people have this. Use it. |
+| Differentiator | None | A clear "only-I" angle | **GAP denim depth + US kidswear + Nordic fashion + CSE/data** (you already run a WIP/margin dashboard). Few people have this combination. Use it. |
 | Social proof | 0–1 recommendations | Buyer-side recommendations | Likely missing. |
 
 ### Comparison by target role
@@ -93,7 +93,7 @@ How a typical **Senior Merchandiser profile in Bangladesh** compares with profil
 - **Merchandising Manager:** recruiters look for team leadership, P&L/margin ownership, and multi-buyer portfolio size. *What to show:* team coordination, how many juniors you guided, and the order book value you handled.
 - **Apparel Sourcing Manager (brand or sourcing office):** vendor base development, cost negotiation, capacity planning, compliance, country-of-origin strategy. *What to show:* how many factories you've assessed or onboarded, and your negotiation results.
 - **Product Development Manager:** proto-to-bulk lead time, fabric/trim development, tech pack interpretation, fit approvals. *What to show:* style counts and approval hit rates.
-- **Global sourcing (buying office of an EU/US brand in BD):** this is likely **your best near-term fit.** Nordic Sourcing experience plus US buyers plus costing depth is exactly what Nordic and EU brand liaison offices in Dhaka hire for (Senior Merchandiser → Sourcing Manager / Product Manager roles).
+- **Global sourcing (buying office of an EU/US brand in BD):** this is likely **your best near-term fit.** Nordic brand experience plus GAP/TCP plus denim and costing depth is exactly what Nordic and EU brand liaison offices in Dhaka hire for (Senior Merchandiser → Sourcing Manager / Product Manager roles).
 
 ## 1.4 Top 10 improvement priorities
 

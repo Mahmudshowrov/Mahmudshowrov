@@ -60,7 +60,7 @@ A buying house sells **trust**: brands are trusting you with their money, timeli
 - Build a personal reputation for costing expertise. Post consistently.
 - Grow a network of brand-side buyers in your target markets (Nordic/EU small and mid-size brands are realistic first clients, because big brands rarely use new buying houses).
 - Map factories you trust, by category, capacity, compliance status and MOQ. Keep this private.
-- **Be careful:** while employed at Nordic Sourcing, don't contact your employer's clients about your future business, and don't announce plans publicly. Check your employment contract for non-compete and non-solicit clauses. Breaking them would hurt your reputation more than any post could help it.
+- **Be careful:** while employed (now at PDS Group), don't contact your current or former employers' clients about your future business, and don't announce plans publicly. Check your employment contract for non-compete and non-solicit clauses. Breaking them would hurt your reputation more than any post could help it.
 
 **Phase 2: Pre-launch (3–6 months before)**
 - Create the NextGen Garments Ltd. company page, but keep it quiet until you're ready.

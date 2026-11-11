@@ -24,6 +24,8 @@ Recruiters search with LinkedIn Recruiter, filtering by **job title, skills, loc
 | Supply Chain | Apparel Supply Chain, Supply Chain Management, Lead Time Management | — | ✅ | ✅ | ✅ |
 | Production | Production Planning, Production Follow-up, T&A, Critical Path, Quality Assurance, On-Time Delivery | — | ✅ | ✅ | ✅ |
 | Categories | Knitwear, Woven, Denim, Sweater, Flat Knit, Jersey, Fleece | ✅ | ✅ | ✅ | ✅ |
+| Specialist niches (from your CV) | Denim Jackets, Sherpa Jackets, Denim Outerwear, Overalls, Kidswear, Children's Wear, Embellishment (Rhinestone, Sequin, Embroidery), Denim Washing | ✅ | ✅ | ✅ | ✅ |
+| Systems (from your CV) | ERP, Infor M3, PLM, WIP Dashboard, Pivot Tables | — | ✅ | ✅ | ✅ |
 | Buyer Relationship | Buyer Relationship Management, Key Account Management, Buyer Communication | — | ✅ | ✅ | ✅ |
 | Market/Region | EU, Nordic, Scandinavian, US Market, Bangladesh RMG | ✅ | ✅ | ✅ | — |
 | Sustainability (EU buyers' priority) | Sustainable Sourcing, Compliance, Traceability, Organic/Recycled (OCS/GRS), BCI cotton | — | ✅ | ✅ (if true) | ✅ |
