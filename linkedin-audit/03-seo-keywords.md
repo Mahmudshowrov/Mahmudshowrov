@@ -45,4 +45,4 @@ Recruiters search with LinkedIn Recruiter, filtering by **job title, skills, loc
 - **Location:** "Dhaka, Bangladesh". Many recruiters filter by location first.
 - **Industry:** set it to "Apparel & Fashion" or "Textile Manufacturing".
 - **Profile language:** English, with no Bangla in the main fields. (Bangla posts are fine occasionally, but keep most posts in English for an international audience.)
-- **Alt text on Featured images and post images:** add keyword-rich descriptions. They help accessibility and are indexed.
+- **Alt text on Featured images and post images:** add keyword-rich descriptions. They help accessibility and give LinkedIn more context about the image.
