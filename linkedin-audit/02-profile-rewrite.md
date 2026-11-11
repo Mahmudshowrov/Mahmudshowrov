@@ -55,7 +55,7 @@ The old framing, "10+ yrs, Knit/Woven/Denim/Sweater", is accurate but generic; h
 > • **Production and shipment:** T&A/critical-path planning, PPM and PCD follow-up, factory visits, corrective actions, and vessel/air bookings through final dispatch.
 > • **Data and reporting:** I run a WIP dashboard that tracks order progress, delays, margin performance and team KPIs. With my B.Sc. in Computer Science & Engineering, I keep looking for ways to make merchandising faster and decisions sharper.
 >
-> **[Optional proof line, only with real numbers]:** I've managed seasonal order books of around USD [1.0] million [add PDS/Nordic figures when confirmed] across [X] factories.
+> At Nordic Sourcing I managed an annual business volume of **[USD / pcs] 5 million** across men's, women's and kidswear.
 >
 > I'm open to conversations with brands, buying offices, sourcing professionals and manufacturers across the apparel supply chain. I post about garment costing, denim and merchandising, so follow along if that's your world.
 >
@@ -69,8 +69,10 @@ The old framing, "10+ yrs, Knit/Woven/Denim/Sweater", is accurate but generic; h
 
 Format: a 1-line scope summary (buyer + categories), then 5–7 bullets. These are tightened versions of your CV bullets, rewritten so they sound like ownership rather than "responsible for". **[needs data]** bullets only go live once you have the real figure.
 
-### Senior Merchandiser — PDS Group (Techno)
-*Feb 2026 – Present · Dhaka, Bangladesh*
+### [Official title — see note] — PDS [Limited / Group: pick one]
+*Feb 2026 – Present · Gulshan, Dhaka, Bangladesh*
+
+**Title note:** LinkedIn currently says "Senior Executive" and your CV says "Senior Merchandiser". Use the title on your appointment letter. If it's Senior Executive, write **"Senior Executive – Merchandising (Apparel)"**. The headline can still say "Senior Merchandiser", because that describes your function and it's the term recruiters search for.
 
 > Senior Merchandiser for **The Children's Place (TCP)**, handling Knit, Woven and Denim from development to shipment.
 >
@@ -90,8 +92,9 @@ Format: a 1-line scope summary (buyer + categories), then 5–7 bullets. These a
 ### Senior Merchandiser — Nordic Sourcing
 *Jul 2024 – Feb 2026 · 1 yr 8 mos · Dhaka, Bangladesh*
 
-> Senior Merchandiser for Nordic fashion brands **Lager 157, Bubbleroom, NA-KD and Flash Loop**, across Knit, Woven, Denim and Sweater.
+> Senior Merchandiser for Nordic fashion brands **Lager 157, Bubbleroom, NA-KD [and Flash Loop — confirm]**, across Knit, Woven, Denim and Sweater for men's, women's and kidswear (T-shirts, jackets, sherpa jackets, shirts, pants, shorts, overalls, jumpsuits, sweaters).
 >
+> • **Managed an annual business volume of [USD / pcs] 5 million** across these accounts. *(Add the unit; this is your strongest line.)*
 > • Managed order execution from development to shipment for multiple Nordic brands running at the same time, keeping critical T&A milestones on track.
 > • Prepared style-wise costings and led price negotiations with suppliers.
 > • Handled fabric and trim sourcing, booking and supplier follow-up for on-time production readiness.
@@ -99,7 +102,7 @@ Format: a 1-line scope summary (buyer + categories), then 5–7 bullets. These a
 > • Followed embellishment-heavy fashion styles (print, embroidery, rhinestone, sequin, pearl) through suppliers.
 > • Conducted regular factory visits and drove corrective actions on production and quality issues.
 > • Prepared monthly shipment and profit-margin reports for management.
-> • **[needs data]** e.g. "[X] styles per season across [X] factories."
+> • Supervised printing, embroidery and washing to meet each buyer's quality standards.
 >
 > *Skills: Apparel Sourcing · Vendor Management · Fashion Merchandising · Sweaters · Supplier Negotiation*
 
@@ -120,8 +123,8 @@ Format: a 1-line scope summary (buyer + categories), then 5–7 bullets. These a
 >
 > *Skills: Denim · Denim Washing · Order Management · Costing · T&A Management*
 
-### Asst Merchandiser → Merchandiser — Armana Group
-*Apr 2015 – Dec 2019 · 4 yrs 9 mos* — **⚠ confirm the dates (Fatheha question in the README)**
+### Assistant Merchandiser → Merchandiser — Armana Group
+*Oct 2016 – Dec 2019 · 3 yrs 3 mos · Gulshan, Dhaka* (the dates on LinkedIn match what you told me; **fix the CV, which says Apr 2015**)
 
 > Grew from Assistant Merchandiser to Merchandiser on **[buyer — confirm: GAP Denim Adult?]**, handling **[categories — confirm]**.
 >
@@ -131,21 +134,29 @@ Format: a 1-line scope summary (buyer + categories), then 5–7 bullets. These a
 > • Planned and controlled T&A/CP; sourced and booked bulk fabric, trims and accessories.
 > • Used ERP (M3) for order processing, line planning, wash planning and WIP tracking.
 > • Ran PP and CP meetings with planning, washing, commercial, logistics, liaison offices, factories and the buyer to deliver on time.
+> • Sent daily production reports (DPR) to the buyer and reconciled warehouse inventory of fabric and trims, catching shortages and label errors before production.
 > • **Promoted** from Assistant Merchandiser to Merchandiser [in year X]. Add the year; promotions are strong proof.
 >
 > *Skills: Denim · Sample Development · ERP (Infor M3) · Production Planning*
 
-### [Only if correct] Assistant Merchandiser — Fatheha Group
-*Apr 2015 – Oct 2016*
+### Assistant Merchandiser — Fatheha Group (**add this; it's missing from LinkedIn**)
+*Apr 2015 – Oct 2016 · 1 yr 7 mos*
 
-> Supported senior merchandisers on sampling, trims, order follow-up and shipment documentation.
+> Started my merchandising career supporting senior merchandisers on [buyer/category], covering sampling, trims cards, order follow-up, daily production tracking and shipment documentation.
 
-### Education — World University of Bangladesh
-*B.Sc. in Computer Science & Engineering · 2015*
+This adds 1 yr 7 mos of visible history, taking you from about 10 to 11+ years. Without it, the "11+ years" in your Summary doesn't match the dates.
+
+### Education — World University of Bangladesh (replace "WUB" and choose the official university page from the dropdown)
+*B.Sc. in [exact degree name on your certificate: Computer Science & Engineering?] · [2011] – 2015*
 
 > A foundation in programming, databases and systems thinking, which I now use in merchandising through Excel reporting, WIP/margin dashboards and data-driven production tracking.
 
 **Leave out of LinkedIn:** CGPA, HSC and SSC. They add nothing at 11 years' experience.
+
+### Also on LinkedIn
+- **Remove** the Publication "Website Design w/ Development".
+- **Languages:** add levels (Bangla – Native, English – Professional working, Hindi – your real level).
+- **Contact:** use one professional email, the same one as on your CV.
 
 ### Licenses & Certifications (add both)
 - **Advanced Excel for Business**: Brocelle Learning, 2022

@@ -2,15 +2,16 @@
 
 ## BLUF
 
-- **Your live LinkedIn profile still hasn't been checked.** linkedin.com is blocked in this work environment. Everything here is built from **your CV (dated 15 Oct 2026)** plus the background you've shared.
+- **Your live profile has now been audited** from the LinkedIn PDF export: **about 35/100** (likely range 30–45). See [00-scored-audit.md](00-scored-audit.md). The rewrite can take it to 80+ within 30 days.
 - The CV changed the positioning a lot. You aren't just a "multi-category Senior Merchandiser". You're a **GAP denim specialist** (jackets, sherpa jackets, overalls, bottoms) who has moved into **US kidswear (TCP)** and **Nordic fashion** (Lager 157, Bubbleroom, NA-KD, Flash Loop). That's a strong, rare mix. The rewrite in [02-profile-rewrite.md](02-profile-rewrite.md) is built around it.
-- **To get the score out of 100,** send a LinkedIn profile PDF (Profile → Resources → Save to PDF) or screenshots.
+- **Still not scored** (not in the PDF): photo, banner, Featured, Activity, Recommendations. Send screenshots if you want those audited.
 - **The CV itself needs fixing before you send it out:** a missing employer, duplicated sections, typos and too much personal data. See [07-cv-review.md](07-cv-review.md).
 
 ## Files
 
 | # | File | What's in it |
 |---|------|--------------|
+| 0 | [00-scored-audit.md](00-scored-audit.md) | **Score, section-by-section audit of the live profile, LinkedIn vs CV mismatch table, top 10 priorities** |
 | 1 | [01-audit.md](01-audit.md) | Scoring rubric, section-by-section audit checklist, positioning gap analysis, top 10 priorities |
 | 2 | [02-profile-rewrite.md](02-profile-rewrite.md) | 5 headlines, About, all experience entries rewritten from your CV, 30 skills, certifications, Featured plan, banner brief |
 | 3 | [03-seo-keywords.md](03-seo-keywords.md) | Recruiter keywords and where to place each one |
@@ -39,10 +40,12 @@
 
 ## Conflicts I need you to settle
 
-1. **Fatheha Group.** You told me Assistant Merchandiser at Fatheha, Apr 2015 – Oct 2016, then Armana from Oct 2016. The CV has no Fatheha and shows Armana from **Apr 2015**. Which is correct? LinkedIn, the CV and background checks must all match exactly.
-2. **Armana vs. Ha-Meem content.** Both sections list "GAP Denim Adult" with the identical category line. Some Armana bullets (wash planning, ERP/M3, liaison offices, USD 1.0M seasonal orders) also read more like a large denim group, i.e. Ha-Meem. Did both companies really produce GAP denim, and does the **USD 1.0M** figure belong to Armana or Ha-Meem?
-3. **Old Navy.** You mentioned Old Navy, but it isn't on the CV. Did you handle it? (I've left it out until you confirm.)
-4. **Brand names.** "Lager" → is it **Lager 157**? "NAKD" → the brand writes it **NA-KD**. I've used those spellings. "Flash Loop" is kept exactly as you wrote it.
+1. **Fatheha Group.** You told me Apr 2015 – Oct 2016, and LinkedIn shows Armana from Oct 2016 (it matches). The CV has no Fatheha and shows Armana from **Apr 2015**. If Fatheha is correct, add it to both and fix the CV's Armana date.
+2. **PDS title and company name.** LinkedIn says "Senior Executive, PDS Limited"; the CV says "Senior Merchandiser, PDS Group (Techno)". Which is on your appointment letter?
+3. **"5 million" at Nordic Sourcing** (on LinkedIn, not on the CV). Is it USD or pieces?
+4. **Armana vs. Ha-Meem content.** Both sections list "GAP Denim Adult" with the identical category line. Some Armana bullets (wash planning, ERP/M3, liaison offices, USD 1.0M seasonal orders) also read more like a large denim group, i.e. Ha-Meem. Did both companies really produce GAP denim, and does the **USD 1.0M** figure belong to Armana or Ha-Meem?
+5. **Old Navy.** It's in your LinkedIn Summary and you mentioned it, but it isn't on the CV or in any job entry. Which company was it at?
+6. **Brand names.** "Lager" → is it **Lager 157**? "NAKD" → the brand writes it **NA-KD**. I've used those spellings. "Flash Loop" is kept exactly as you wrote it.
 
 ## Numbers still missing (each one makes the profile stronger)
 
