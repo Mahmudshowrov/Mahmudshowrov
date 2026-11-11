@@ -1,68 +1,70 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><title>LinkedIn Banner</title>
 <style>
-  html,body{margin:0;padding:0;background:#0d1a33}
+  html,body{margin:0;padding:0;background:#0a1428}
   .b{position:relative;width:1584px;height:396px;overflow:hidden;font-family:Inter,sans-serif}
   svg{position:absolute;inset:0}
-  .t{position:absolute;right:88px;top:0;height:396px;display:flex;flex-direction:column;justify-content:center;align-items:flex-end;text-align:right;padding-bottom:18px;box-sizing:border-box}
-  .l1{color:#fff;font-weight:600;font-size:36px;letter-spacing:-0.3px;line-height:1.15}
-  .l1 .dot{color:#d4b27a;font-weight:400;padding:0 10px}
-  .l2{color:#d6deee;font-weight:400;font-size:24px;letter-spacing:0.4px;margin-top:16px}
-  .l2 .bar{color:#7f93bb;padding:0 10px}
-  .l3{color:#d4b27a;font-weight:500;font-size:16px;letter-spacing:3px;text-transform:uppercase;margin-top:22px}
+  .t{position:absolute;left:596px;top:0;height:396px;display:flex;flex-direction:column;justify-content:center}
+  .eyebrow{color:#d9b779;font-weight:600;font-size:15px;letter-spacing:4px;text-transform:uppercase}
+  .l1{color:#ffffff;font-weight:600;font-size:32px;letter-spacing:-0.4px;line-height:1.2;margin-top:14px}
+  .l1 .dot{color:#d9b779;font-weight:400;padding:0 12px}
+  .rule{width:820px;height:1px;background:linear-gradient(90deg,rgba(217,183,121,.75),rgba(217,183,121,.15) 70%,rgba(217,183,121,0));margin:22px 0 20px}
+  .l2{color:#e3e9f4;font-weight:400;font-size:22px;letter-spacing:0.6px}
+  .l2 .bar{display:inline-block;width:1px;height:18px;background:#6f84ad;margin:0 16px;vertical-align:-2px}
+  .l3{color:#9fb0cf;font-weight:500;font-size:15px;letter-spacing:3.5px;text-transform:uppercase;margin-top:18px}
+  .l3 .sep{color:#d9b779;padding:0 12px}
 </style></head><body>
 <div class="b" id="banner">
 <svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.3">
-      <stop offset="0" stop-color="#0b1730"/>
-      <stop offset="0.45" stop-color="#14264d"/>
-      <stop offset="1" stop-color="#1c3366"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.25">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.5" stop-color="#0f2142"/>
+      <stop offset="1" stop-color="#162d58"/>
     </linearGradient>
-    <!-- 3/1 twill: fine diagonal lines -->
-    <pattern id="twill" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-62)">
-      <rect width="7" height="7" fill="none"/>
-      <line x1="0" y1="0" x2="0" y2="7" stroke="#9fb4de" stroke-width="2.2"/>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1b3466" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#1b3466" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="twill" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-62)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#a9bde3" stroke-width="2"/>
     </pattern>
-    <!-- container corrugation: vertical ribs -->
-    <pattern id="ribs" width="22" height="396" patternUnits="userSpaceOnUse">
-      <rect x="0" y="0" width="11" height="396" fill="#ffffff" opacity="0.5"/>
-      <rect x="11" y="0" width="2" height="396" fill="#ffffff" opacity="0.9"/>
-    </pattern>
-    <linearGradient id="fadeTwill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.32" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.55" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="0.80" stop-color="#fff" stop-opacity="0.7"/>
-      <stop offset="0.92" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="fadeRibs" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.78" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.92" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
-    </linearGradient>
-    <mask id="mT"><rect width="1584" height="396" fill="url(#fadeTwill)"/></mask>
-    <mask id="mR"><rect width="1584" height="396" fill="url(#fadeRibs)"/></mask>
-    <radialGradient id="glow" cx="0.72" cy="0.45" r="0.55">
-      <stop offset="0" stop-color="#2a4a8a" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#2a4a8a" stop-opacity="0"/>
+    <clipPath id="panelClip"><polygon points="560,0 1584,0 1584,396 470,396"/></clipPath>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#2c4f94" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#2c4f94" stop-opacity="0"/>
     </radialGradient>
   </defs>
+
   <rect width="1584" height="396" fill="url(#bg)"/>
+  <!-- angled panel (modern corporate split) -->
+  <polygon points="560,0 1584,0 1584,396 470,396" fill="url(#panel)"/>
   <rect width="1584" height="396" fill="url(#glow)"/>
-  <rect width="1584" height="396" fill="url(#twill)" opacity="0.07" mask="url(#mT)"/>
-  <rect width="1584" height="396" fill="url(#ribs)" opacity="0.05" mask="url(#mR)"/>
-  <!-- contrast stitching -->
-  <line x1="560" y1="44" x2="1584" y2="44" stroke="#d4b27a" stroke-width="2" stroke-dasharray="12 7" opacity="0.55"/>
-  <line x1="560" y1="352" x2="1584" y2="352" stroke="#d4b27a" stroke-width="2" stroke-dasharray="12 7" opacity="0.55"/>
-  <line x1="560" y1="40" x2="1584" y2="40" stroke="#000" stroke-width="1" opacity="0.18"/>
-  <line x1="560" y1="356" x2="1584" y2="356" stroke="#000" stroke-width="1" opacity="0.18"/>
+  <!-- subtle denim twill only inside the panel -->
+  <g clip-path="url(#panelClip)"><rect width="1584" height="396" fill="url(#twill)" opacity="0.045"/></g>
+  <!-- gold edge on the angled panel -->
+  <line x1="560" y1="0" x2="470" y2="396" stroke="#d9b779" stroke-width="2" opacity="0.7"/>
+  <line x1="574" y1="0" x2="484" y2="396" stroke="#d9b779" stroke-width="1" opacity="0.25"/>
+
+  <!-- global wireframe, partly off-canvas on the right -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.3" transform="translate(1590,198)">
+    <circle r="250"/>
+    <ellipse rx="190" ry="250"/>
+    <ellipse rx="115" ry="250"/>
+    <ellipse rx="40" ry="250"/>
+    <line x1="-250" y1="0" x2="250" y2="0"/>
+    <ellipse rx="236" ry="40" cy="-85"/>
+    <ellipse rx="236" ry="40" cy="85"/>
+    <ellipse rx="183" ry="30" cy="-170"/>
+    <ellipse rx="183" ry="30" cy="170"/>
+  </g>
 </svg>
 <div class="t">
+  <div class="eyebrow">Senior Merchandiser &nbsp;·&nbsp; Global Apparel Sourcing</div>
   <div class="l1">Apparel Merchandising<span class="dot">•</span>Costing<span class="dot">•</span>Product Development</div>
-  <div class="l2">Denim<span class="bar">|</span>Knit<span class="bar">|</span>Woven<span class="bar">|</span>Sweater<span class="bar">|</span>Kidswear</div>
-  <div class="l3">US &amp; EU Brands &nbsp;·&nbsp; Dhaka, Bangladesh</div>
+  <div class="rule"></div>
+  <div class="l2">Denim<span class="bar"></span>Knit<span class="bar"></span>Woven<span class="bar"></span>Sweater<span class="bar"></span>Outerwear</div>
+  <div class="l3">US &amp; EU Brands<span class="sep">·</span>Dhaka, Bangladesh</div>
 </div>
 </div>
 </body></html>

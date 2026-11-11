@@ -5,7 +5,7 @@ const { chromium } = require('playwright');
   for (const [scale, name] of [[1,'linkedin-banner-1584x396.png'],[2,'linkedin-banner-3168x792@2x.png']]) {
     const p = await b.newPage({ viewport:{width:1584,height:396}, deviceScaleFactor: scale });
     await p.goto('file://' + dir + '/banner.html'); await p.evaluate(()=>document.fonts.ready);
-    const w = await p.evaluate(()=>{const r=document.querySelector('.l1').getBoundingClientRect();return [r.left,r.right]});
+    const w = await p.evaluate(()=>{const r=document.querySelector('.t').getBoundingClientRect();return [r.left,r.right]});
     if (scale===1) console.log('line1 x-range', w);
     await p.locator('#banner').screenshot({ path: dir + '/' + name });
     if (scale===1) {
