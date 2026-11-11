@@ -1,0 +1,68 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>LinkedIn Banner</title>
+<style>
+  html,body{margin:0;padding:0;background:#0d1a33}
+  .b{position:relative;width:1584px;height:396px;overflow:hidden;font-family:Inter,sans-serif}
+  svg{position:absolute;inset:0}
+  .t{position:absolute;right:88px;top:0;height:396px;display:flex;flex-direction:column;justify-content:center;align-items:flex-end;text-align:right;padding-bottom:18px;box-sizing:border-box}
+  .l1{color:#fff;font-weight:600;font-size:36px;letter-spacing:-0.3px;line-height:1.15}
+  .l1 .dot{color:#d4b27a;font-weight:400;padding:0 10px}
+  .l2{color:#d6deee;font-weight:400;font-size:24px;letter-spacing:0.4px;margin-top:16px}
+  .l2 .bar{color:#7f93bb;padding:0 10px}
+  .l3{color:#d4b27a;font-weight:500;font-size:16px;letter-spacing:3px;text-transform:uppercase;margin-top:22px}
+</style></head><body>
+<div class="b" id="banner">
+<svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#0b1730"/>
+      <stop offset="0.45" stop-color="#14264d"/>
+      <stop offset="1" stop-color="#1c3366"/>
+    </linearGradient>
+    <!-- 3/1 twill: fine diagonal lines -->
+    <pattern id="twill" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-62)">
+      <rect width="7" height="7" fill="none"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#9fb4de" stroke-width="2.2"/>
+    </pattern>
+    <!-- container corrugation: vertical ribs -->
+    <pattern id="ribs" width="22" height="396" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="11" height="396" fill="#ffffff" opacity="0.5"/>
+      <rect x="11" y="0" width="2" height="396" fill="#ffffff" opacity="0.9"/>
+    </pattern>
+    <linearGradient id="fadeTwill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.32" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.80" stop-color="#fff" stop-opacity="0.7"/>
+      <stop offset="0.92" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeRibs" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.78" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.92" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="mT"><rect width="1584" height="396" fill="url(#fadeTwill)"/></mask>
+    <mask id="mR"><rect width="1584" height="396" fill="url(#fadeRibs)"/></mask>
+    <radialGradient id="glow" cx="0.72" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#2a4a8a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2a4a8a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#glow)"/>
+  <rect width="1584" height="396" fill="url(#twill)" opacity="0.07" mask="url(#mT)"/>
+  <rect width="1584" height="396" fill="url(#ribs)" opacity="0.05" mask="url(#mR)"/>
+  <!-- contrast stitching -->
+  <line x1="560" y1="44" x2="1584" y2="44" stroke="#d4b27a" stroke-width="2" stroke-dasharray="12 7" opacity="0.55"/>
+  <line x1="560" y1="352" x2="1584" y2="352" stroke="#d4b27a" stroke-width="2" stroke-dasharray="12 7" opacity="0.55"/>
+  <line x1="560" y1="40" x2="1584" y2="40" stroke="#000" stroke-width="1" opacity="0.18"/>
+  <line x1="560" y1="356" x2="1584" y2="356" stroke="#000" stroke-width="1" opacity="0.18"/>
+</svg>
+<div class="t">
+  <div class="l1">Apparel Merchandising<span class="dot">•</span>Costing<span class="dot">•</span>Product Development</div>
+  <div class="l2">Denim<span class="bar">|</span>Knit<span class="bar">|</span>Woven<span class="bar">|</span>Sweater<span class="bar">|</span>Kidswear</div>
+  <div class="l3">US &amp; Nordic Brands &nbsp;·&nbsp; Dhaka, Bangladesh</div>
+</div>
+</div>
+</body></html>
