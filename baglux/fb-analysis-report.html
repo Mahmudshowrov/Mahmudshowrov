@@ -1,0 +1,240 @@
+<title>BAG LUX Page Analysis</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: single reading column (max 860px), verdict strip up top, then numbered findings in order of priority */
+:root{
+  --bg:#F6F7F8; --surface:#FFFFFF; --ink:#16202A; --muted:#5B6773; --line:#DDE2E7;
+  --accent:#0F6E5C; --accent-soft:#E2F1EC;
+  --good:#1E7B45; --warn:#A86400; --warn-soft:#FBEFD9; --bad:#B42318; --bad-soft:#FBE5E2;
+  --display:"Sora",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F151B; --surface:#17202A; --ink:#E6EBEF; --muted:#9AA6B2; --line:#2A3542;
+  --accent:#4CC3A6; --accent-soft:#163A33; --good:#5BD08C; --warn:#F0B44C; --warn-soft:#3A2D14; --bad:#FF8A7A; --bad-soft:#3D1D1A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F151B; --surface:#17202A; --ink:#E6EBEF; --muted:#9AA6B2; --line:#2A3542;
+  --accent:#4CC3A6; --accent-soft:#163A33; --good:#5BD08C; --warn:#F0B44C; --warn-soft:#3A2D14; --bad:#FF8A7A; --bad-soft:#3D1D1A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.wrap{max-width:860px;margin:0 auto;display:grid;gap:36px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.25}
+h1{font-size:clamp(26px,5vw,36px);font-weight:700}
+h2{font-size:21px;font-weight:600;display:flex;gap:12px;align-items:baseline}
+h2 .n{font-family:var(--mono);font-size:13px;color:var(--accent);font-weight:500}
+h3{font-size:16px;font-weight:600}
+p{margin:0}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.sub{color:var(--muted);max-width:65ch}
+section{display:grid;gap:14px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;display:grid;gap:10px;min-width:0}
+.bluf{border-left:4px solid var(--accent)}
+.bluf ol{margin:0;padding-left:20px;display:grid;gap:8px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:4px}
+.tile .k{font-size:12px;color:var(--muted)}
+.tile .v{font:600 24px/1.2 var(--display);font-variant-numeric:tabular-nums}
+.tile .s{font-size:12px;color:var(--muted)}
+.v.bad{color:var(--bad)} .v.warn{color:var(--warn)} .v.good{color:var(--good)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 12px/1.3 var(--body);color:var(--muted);text-transform:uppercase;letter-spacing:.04em;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.num{text-align:right;white-space:nowrap}
+.pill{display:inline-block;font:600 11px/1 var(--body);padding:4px 8px;border-radius:999px;white-space:nowrap}
+.pill.v{background:var(--accent-soft);color:var(--accent)}
+.pill.u{background:var(--warn-soft);color:var(--warn)}
+.pill.h{background:var(--bad-soft);color:var(--bad)}
+.pill.m{background:var(--warn-soft);color:var(--warn)}
+.note{font-size:13px;color:var(--muted)}
+.bars{display:grid;gap:10px}
+.bar{display:grid;grid-template-columns:150px 1fr 70px;gap:10px;align-items:center;font-size:14px}
+.track{height:14px;background:var(--bg);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.fill{height:100%;background:var(--accent)}
+.fill.warn{background:var(--warn)} .fill.bad{background:var(--bad)}
+.bar .val{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:13px}
+@media (max-width:520px){.bar{grid-template-columns:1fr 64px}.bar .track{grid-column:1/-1;grid-row:2}}
+ul.clean{margin:0;padding-left:18px;display:grid;gap:6px}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+footer{font-size:12px;color:var(--muted);display:grid;gap:6px}
+</style>
+
+<div class="wrap">
+
+<header style="display:grid;gap:10px">
+  <span class="eyebrow">Facebook page analysis · facebook.com/baglux.me · 13 Nov 2026</span>
+  <h1>BAG LUX Page Analysis</h1>
+  <p class="sub">Prepared for the BAG LUX partners. It covers how findable the page is, what the stock and sales records say about what the page is selling, and what to fix first.</p>
+</header>
+
+<section class="panel" aria-labelledby="ev">
+  <h3 id="ev">What this report is based on</h3>
+  <div class="tbl" style="border:0">
+  <table>
+    <tr><th>Source</th><th>Status</th><th>Used for</th></tr>
+    <tr><td>BAG LUX A–Z Tracking sheet (Product, Expenses, Sales tabs, data to 10 Nov 2026)</td><td><span class="pill v">Verified</span></td><td>Stock, sell-through, margin, cash</td></tr>
+    <tr><td>Web search for the page name and handle (Nov 2026)</td><td><span class="pill v">Verified</span></td><td>Findability and name clashes</td></tr>
+    <tr><td>The live page: posts, reels, comments, reviews, Insights, inbox</td><td><span class="pill u">Not accessed</span></td><td>Facebook is blocked from the research tool. Insights and inbox need admin login.</td></tr>
+  </table>
+  </div>
+  <p class="note">No page reach, engagement or follower numbers appear in this report, because none could be checked. Section 6 lists what to send to complete the content and engagement audit.</p>
+</section>
+
+<section class="panel bluf" aria-labelledby="bl">
+  <h3 id="bl">Bottom line</h3>
+  <ol>
+    <li><strong>Your premium bags sell. Your cheap stock doesn't.</strong> Both KORRNE DIAO bags (around ৳4,000) sold. None of the 8 purses and wallets priced ৳610–1,035 has sold. The sample is small, but it backs the premium positioning.</li>
+    <li><strong>৳28,400 of stock is sitting unsold</strong>, which is 61% of the ৳46,930 invested. Only 8 of 37 pieces have sold (22%). Chowk Bazar stock bought on 11 Aug is still mostly in hand.</li>
+    <li><strong>The page is hard to find by name.</strong> A search for "BAG LUX" returns at least 9 other bag pages with almost the same name (UK, Ukraine, Moldova and others). None of them is yours, and baglux.me doesn't show up at all.</li>
+    <li><strong>You can't measure the page yet.</strong> The Sales Tracker is empty, 23 products have no code, and 13 have no name. Without these, you can't tell which post, reel or ad brought an order.</li>
+  </ol>
+</section>
+
+<section aria-labelledby="s1">
+  <h2 id="s1"><span class="n">01</span>Business snapshot from the tracker</h2>
+  <div class="tiles">
+    <div class="tile"><span class="k">Total invested</span><span class="v">৳46,930</span><span class="s">Expenses tab, 3 purchases</span></div>
+    <div class="tile"><span class="k">Stock still in hand (at cost)</span><span class="v warn">৳28,400</span><span class="s">29 pieces</span></div>
+    <div class="tile"><span class="k">Sell-through</span><span class="v bad">22%</span><span class="s">8 of 37 pieces sold</span></div>
+    <div class="tile"><span class="k">Profit on sold pieces</span><span class="v good">৳5,085</span><span class="s">33% average margin</span></div>
+    <div class="tile"><span class="k">Purchases not in the tracker</span><span class="v bad">৳8,730</span><span class="s">Paid but no stock row</span></div>
+    <div class="tile"><span class="k">Orders in Sales Tracker</span><span class="v bad">0</span><span class="s">No order-level data yet</span></div>
+  </div>
+  <p class="note">Profit is before Facebook ads, courier charges and returns, because the tracker doesn't record those yet. So the true profit is lower than ৳5,085.</p>
+</section>
+
+<section aria-labelledby="s2">
+  <h2 id="s2"><span class="n">02</span>What sells and what doesn't</h2>
+  <div class="panel">
+    <h3>Sell-through by supplier</h3>
+    <div class="bars" role="img" aria-label="Puspita 100 percent sell-through, Ashik Tower 9 percent">
+      <div class="bar"><span>Puspita (Eastern Mollika)</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="val">5 / 5</span></div>
+      <div class="bar"><span>Ashik Tower (Chowk Bazar)</span><div class="track"><div class="fill bad" style="width:9.4%"></div></div><span class="val">3 / 32</span></div>
+    </div>
+    <p class="note">Puspita pieces sold out at ৳1,000–2,500. Ashik Tower is your largest supplier, but only 3 of its 32 pieces have sold.</p>
+  </div>
+
+  <div class="tbl">
+  <table>
+    <tr><th>Product</th><th class="num">Selling price</th><th class="num">Profit / pc</th><th class="num">Sold</th><th>Read</th></tr>
+    <tr><td>KORRNE DIAO (EL-130)</td><td class="num">৳4,180</td><td class="num">৳1,680</td><td class="num">1 / 1</td><td><span class="pill v">Winner</span></td></tr>
+    <tr><td>KORRNE DIAO (row 7)</td><td class="num">৳4,000</td><td class="num">৳1,650</td><td class="num">1 / 1</td><td><span class="pill v">Winner</span></td></tr>
+    <tr><td>Puspita item (row 27)</td><td class="num">৳2,100</td><td class="num">৳700</td><td class="num">2 / 2</td><td><span class="pill v">Winner</span></td></tr>
+    <tr><td>Puspita item (row 24)</td><td class="num">৳2,500</td><td class="num">Cost missing</td><td class="num">1 / 1</td><td><span class="pill u">Add cost</span></td></tr>
+    <tr><td>RR Collection</td><td class="num">৳1,205</td><td class="num">৳455</td><td class="num">1 / 3</td><td><span class="pill m">Slow</span></td></tr>
+    <tr><td>Puspita item (row 25)</td><td class="num">৳1,000</td><td class="num">−৳50</td><td class="num">2 / 2</td><td><span class="pill h">Sold at a loss</span></td></tr>
+    <tr><td>CLASSIC (DL-126 + 3)</td><td class="num">৳2,905</td><td class="num">৳1,155</td><td class="num">0 / 4</td><td><span class="pill m">Not moving</span></td></tr>
+    <tr><td>Purses, mini wallet, dollar purse</td><td class="num">৳610–1,035</td><td class="num">৳210–385</td><td class="num">0 / 9</td><td><span class="pill h">Not moving</span></td></tr>
+    <tr><td>7 unnamed Ashik Tower items (rows 17–23)</td><td class="num">৳1,715–2,395</td><td class="num">৳665–945</td><td class="num">0 / 14</td><td><span class="pill h">Not moving</span></td></tr>
+  </table>
+  </div>
+  <p class="note">Selling prices are the tracker's formula (wholesale + 70% + ৳100 carry) unless a real price was typed. Sample size is small (8 pieces sold), so treat these as early signals, not proof.</p>
+
+  <div class="panel">
+    <h3>Where the unsold ৳28,400 sits (at cost)</h3>
+    <div class="bars" role="img" aria-label="Unsold stock by product group">
+      <div class="bar"><span>Unnamed items (rows 17–23)</span><div class="track"><div class="fill warn" style="width:58.5%"></div></div><span class="val">৳16,600</span></div>
+      <div class="bar"><span>CLASSIC</span><div class="track"><div class="fill warn" style="width:23.2%"></div></div><span class="val">৳6,600</span></div>
+      <div class="bar"><span>Purses &amp; wallets</span><div class="track"><div class="fill warn" style="width:13.7%"></div></div><span class="val">৳3,900</span></div>
+      <div class="bar"><span>RR Collection</span><div class="track"><div class="fill warn" style="width:4.6%"></div></div><span class="val">৳1,300</span></div>
+    </div>
+    <p class="note">58% of the unsold stock has no product name or code. Products without a name are hard to post, advertise or quote in the inbox, which may be part of why they aren't selling.</p>
+  </div>
+</section>
+
+<section aria-labelledby="s3">
+  <h2 id="s3"><span class="n">03</span>Pricing: can these margins pay for Facebook ads?</h2>
+  <div class="panel">
+    <p>Your pricing rule is wholesale + 70% + ৳100 carry. That leaves this much per piece to cover ads, courier, COD charge and returns:</p>
+    <div class="tbl" style="border:0">
+    <table>
+      <tr><th>Buying price</th><th class="num">Selling price</th><th class="num">Profit before ads &amp; delivery</th><th>Can it pay for ads?</th></tr>
+      <tr><td>৳550 purse</td><td class="num">৳1,035</td><td class="num">৳385</td><td>Barely. One refused COD parcel wipes out the profit.</td></tr>
+      <tr><td>৳1,250 bag</td><td class="num">৳2,225</td><td class="num">৳875</td><td>Possible if you keep cost per order low</td></tr>
+      <tr><td>৳2,400 bag</td><td class="num">৳4,180</td><td class="num">৳1,680</td><td>Yes. This is where ad money should go.</td></tr>
+    </table>
+    </div>
+    <p class="note">How to set the limit: divide the profit per piece by 2. That's the most you should pay in ads per delivered order and still keep half the profit. For a KORRNE DIAO bag, that's about ৳840 per order. Track your real cost per order in the Sales Tracker before deciding.</p>
+  </div>
+  <ul class="clean">
+    <li><strong>Don't advertise the purses on their own.</strong> Sell them as add-ons ("matching purse ৳690 with any bag") or in bundles to clear the stock.</li>
+    <li><strong>Fix row 25.</strong> It sold at ৳1,000 against ৳1,050 cost plus carry. Set a minimum price for every product: cost + carry + at least ৳300.</li>
+    <li><strong>Put KORRNE DIAO-type bags in front:</strong> on the cover photo, in reels and in ads. The page's best sellers so far are at the premium end.</li>
+  </ul>
+</section>
+
+<section aria-labelledby="s4">
+  <h2 id="s4"><span class="n">04</span>Findability and name</h2>
+  <div class="panel">
+    <p>Search results for "BAG LUX" and "facebook.com/baglux.me" bring up these pages instead of yours:</p>
+    <div class="tbl" style="border:0">
+    <table>
+      <tr><th>Page</th><th>Where / what</th></tr>
+      <tr><td><a href="https://www.facebook.com/baglux/">BagLux (/baglux)</a></td><td>Kyiv, Ukraine. Branded bags, 62 likes.</td></tr>
+      <tr><td><a href="https://www.facebook.com/p/BagLux-100093777824787/">BagLux</a></td><td>About 1.6K followers. Links to baglux.com.</td></tr>
+      <tr><td><a href="https://www.facebook.com/Baglus/">Baglux (/Baglus)</a></td><td>Links to shopbaglux.com</td></tr>
+      <tr><td><a href="https://www.facebook.com/bagLuxuria/">Bag Luxe</a>, <a href="https://www.facebook.com/BagsLuxxxx/">Bags Luxx</a>, <a href="https://www.facebook.com/luxbagsuk/">Lux Bags (UK)</a>, <a href="https://www.facebook.com/lux.bagz">Lux Bagz</a>, <a href="https://www.facebook.com/p/Bagslux-100064974791688/">Bagslux</a></td><td>Similar names, other markets</td></tr>
+      <tr><td><a href="https://www.instagram.com/baglux.md/">@baglux.md (Instagram)</a></td><td>Moldova</td></tr>
+    </table>
+    </div>
+    <p class="note">Impact: a customer who hears "BAG LUX" and searches may find the wrong page, or find nothing. For a brand that asks customers to pay cash on delivery for a ৳4,000 bag, being easy to find and check is part of earning their trust.</p>
+  </div>
+  <ul class="clean">
+    <li>Change the page name to <strong>BAG LUX Bangladesh</strong> (or BAG LUX BD) and use the same handle on Instagram and TikTok.</li>
+    <li>Fill in the About section with a Bangladesh address or area, phone, WhatsApp, delivery and exchange policy.</li>
+    <li>Set up a Google Business Profile if you have a pickup point. Searches for "BAG LUX Dhaka" will then find you.</li>
+  </ul>
+</section>
+
+<section aria-labelledby="s5">
+  <h2 id="s5"><span class="n">05</span>Priority actions (next 14 days)</h2>
+  <div class="tbl">
+  <table>
+    <tr><th>Priority</th><th>Action</th><th>Why</th></tr>
+    <tr><td><span class="pill h">High</span></td><td>Give every product a code and name, and add the 3 missing stock quantities and 3 missing buying prices</td><td>Unnamed stock is ৳16,600 of unsold goods</td></tr>
+    <tr><td><span class="pill h">High</span></td><td>Log every order in the Sales Tracker (code, price, delivery cost, delivery status)</td><td>It's the only way to measure the page and ads</td></tr>
+    <tr><td><span class="pill h">High</span></td><td>Show the price on every post. Make a reel and a 7-photo carousel for CLASSIC and the unnamed ৳1,715–2,395 bags.</td><td>That stock has no sales yet. Good visuals are the cheapest fix.</td></tr>
+    <tr><td><span class="pill h">High</span></td><td>Add "Bangladesh" to the page name. Complete the About section and contact info.</td><td>Name clash with 9+ pages</td></tr>
+    <tr><td><span class="pill m">Medium</span></td><td>Bundle purses and wallets as add-ons. Stop buying more low-price purses.</td><td>0 of 9 sold. Cash is locked.</td></tr>
+    <tr><td><span class="pill m">Medium</span></td><td>Record the missing ৳8,730 of purchases in the Product Tracker</td><td>So stock and profit figures are complete</td></tr>
+    <tr><td><span class="pill m">Medium</span></td><td>Next buying trip: buy more of what sold (KORRNE DIAO type, Puspita styles), in small quantities</td><td>Buy what sells, and protect cash</td></tr>
+    <tr><td><span class="pill u">Later</span></td><td>Start ads at ৳300/day on one premium bag once the Sales Tracker is in use</td><td>Then you can see cost per delivered order</td></tr>
+  </table>
+  </div>
+</section>
+
+<section aria-labelledby="s6">
+  <h2 id="s6"><span class="n">06</span>To finish the page audit</h2>
+  <div class="two">
+    <div class="panel">
+      <h3>Send these</h3>
+      <ul class="clean">
+        <li>Mobile screenshots of the page header and the last 15 posts</li>
+        <li>Meta Business Suite → Insights → Content export, last 90 days</li>
+        <li>Inbox response-time stats and 10 sample chats (names hidden)</li>
+        <li>Your Reviews / Recommendations tab</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>What you'll get back</h3>
+      <ul class="clean">
+        <li>Page score out of 100, with evidence for each area</li>
+        <li>Best and worst posts by messages started</li>
+        <li>Inbox conversion leaks and reply fixes</li>
+        <li>Each post's reach matched to the stock and sales data in this report</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>Data: BAG LUX A–Z Tracking sheet (to 10 Nov 2026), 26 product rows, 3 expense entries, 0 sales entries. Profit figures exclude ads, courier and returns.</span>
+  <span>Search findings: web search, Nov 2026. Page details of other brands are from search summaries and may have changed.</span>
+</footer>
+
+</div>
